@@ -6,6 +6,7 @@
 - 🛠️ Wrote a **compiler for a C-like language** that runs end to end: Flex/Bison front end, Three Address Code with an optimizer (`-O1` to `-O3`), and MIPS code that runs on SPIM.
 - ⚡ Measuring things at the nanosecond level: **fastparse** (SIMD parsers for market data) and **fasttime** (why your `clock_gettime` might secretly be a system call).
 - ⚛️ Quantum computing: QAOA for peptide design (Qiskit Fall Fest 2026), a quantum–classical crossover study for α-RuCl₃, and contributions to **Quantum++**.
+- 🧮 Merged fix in **Eigen**, the C++ linear algebra library, on GitLab.
 - 🧵 I like problems close to the machine: parsers, schedulers, threads, clocks, CPU counters.
 
 ---
@@ -35,7 +36,13 @@
 
 ## 🌐 Open source
 
+- [**Eigen**](https://gitlab.com/libeigen/eigen) (C++ linear algebra library, on GitLab): [!3412 — merged](https://gitlab.com/libeigen/eigen/-/merge_requests/3412). Building an `Affine` or `Isometry` transform from a full matrix now resets the last row to `[0 … 0 1]`, so the transform can no longer silently break its own mode.
 - [**Quantum++**](https://github.com/migikun474/qpp) (C++17 quantum computing library by softwareQ): added `qpp::fidelity()`, `qpp::trace_distance()`, `qpp::purity()` and arbitrary state preparation with `qpp::state_prep_circuit()`.
+
+<p align="center">
+  <a href="https://github.com/migikun474"><img src="https://img.shields.io/badge/GitHub-migikun474-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://gitlab.com/migikun474"><img src="https://img.shields.io/badge/GitLab-migikun474-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/></a>
+</p>
 
 <details>
 <summary>More projects</summary>
@@ -83,6 +90,7 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
 </p>
 
