@@ -1,15 +1,31 @@
-<div align="center">
-  <h1>Hi, I'm Sai Vignesh 👋</h1>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FE428E&width=680&center=true&lines=Systems+%7C+Compilers+%7C+Low-Latency+C;C-like+source+%E2%86%92+TAC+%E2%86%92+MIPS+on+SPIM;SWAR+%7C+SSE%2FAVX2+%7C+x86-64+Assembly;Quantum+Simulation+%7C+Qiskit+%7C+Quantum%2B%2B;Student+at+IIT+Roorkee+%7C+India" alt="Typing SVG"/>
-</div>
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Sai Vignesh — systems, compilers, low-latency C and quantum computing"/>
+</p>
 
-- 🛠️ Wrote a **compiler for a C-like language** that runs end to end: Flex/Bison front end, Three Address Code with an optimizer (`-O1` to `-O3`), and MIPS code that runs on SPIM.
+- 🛠️ Wrote a **compiler for a C-like language** that runs end to end: Flex/Bison front end, Three Address Code with an optimizer (`-O1` to `-O3`), and register-allocated MIPS that runs on SPIM.
 - ⚡ Measuring things at the nanosecond level: **fastparse** (SIMD parsers for market data) and **fasttime** (why your `clock_gettime` might secretly be a system call).
 - ⚛️ Quantum computing: QAOA for peptide design (Qiskit Fall Fest 2026), a quantum–classical crossover study for α-RuCl₃, and contributions to **Quantum++**.
 - 🧮 Merged fix in **Eigen**, the C++ linear algebra library, on GitLab.
-- 🧵 I like problems close to the machine: parsers, schedulers, threads, clocks, CPU counters.
 
 ---
+
+## ⚙️ How my projects work
+
+<a href="https://github.com/migikun474/COMPILER-DESIGN"><img src="assets/compiler.svg" width="100%" alt="Compiler pipeline: source.c → preprocessor → Flex lexer → LALR(1) parser → semantic analysis → TAC → optimizer → MIPS → SPIM"/></a>
+
+<a href="https://github.com/migikun474/fastparse"><img src="assets/fastparse.svg" width="100%" alt="fastparse: SWAR combines 8 digits in 3 multiply-adds; AVX2 reaches 5,311 MB/s against a 973 MB/s reference"/></a>
+
+<a href="https://github.com/migikun474/fasttime"><img src="assets/fasttime.svg" width="100%" alt="fasttime: rdtsc and vDSO reads take 16–20 ns; hpet and acpi_pm reads trap into the kernel and take 1,213–1,966 ns"/></a>
+
+<a href="https://github.com/migikun474/Q-peptide"><img src="assets/quantum.svg" width="100%" alt="Q·Peptide: a p=2 QAOA circuit makes the optimal bitstring 390 times more likely than uniform sampling"/></a>
+
+<a href="https://github.com/migikun474/rucl3-crossover"><img src="assets/rucl3.svg" width="100%" alt="rucl3-crossover: schematic of classical and quantum cost curves crossing at N*"/></a>
+
+<sub>Every animation is hand-written SVG; the numbers come from each repo's own measurements. Click one to open the project.</sub>
+
+---
+
+## 📊 Activity
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=migikun474&show_icons=true&theme=radical&include_all_commits=true" alt="GitHub stats"/>
@@ -21,18 +37,14 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=migikun474&layout=compact&langs_count=10&theme=radical&hide=jupyter%20notebook,html,css&exclude_repo=qpp" alt="Most used languages"/>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/migikun474/migikun474/output/snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/migikun474/migikun474/output/snake-light.svg" alt="Contribution snake"/>
+  </picture>
+</p>
+
 ---
-
-## 🚀 Featured projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| [**COMPILER-DESIGN**](https://github.com/migikun474/COMPILER-DESIGN) | Compiler for a C-like language with classes, references and overloading. Lexer, LALR(1) parser, semantic analysis, TAC with an interpreter, `-O1`/`-O2`/`-O3` optimizations and register-allocated MIPS. Every test program must print exactly what gcc's binary prints, in the TAC interpreter and in SPIM. | C++17, Flex, Bison, MIPS |
-| [**fastparse**](https://github.com/migikun474/fastparse) | Turns market-data text like `"27431.55"` into fixed-point integers, written five ways: naive loop, SWAR, hand-written x86-64 assembly, SSE and AVX2. Up to 5.3 GB/s on a Binance trades CSV against a 973 MB/s reference. Each version is checked against the reference on every PR, with fuzzing and sanitizers in CI. | C, x86-64 asm, SSE/AVX2 |
-| [**fasttime**](https://github.com/migikun474/fasttime) | Checks whether a Linux machine's time reads are secretly system calls, benchmarks every way to read the time (vDSO, syscall, `rdtsc`, `rdtscp`), and ships a header-only calibrated TSC clock: 16 ns per read on any clocksource. | C, Linux |
-| [**Q-peptide**](https://github.com/migikun474/Q-peptide) | Picks the amino-acid substitutions that best trade off predicted activity against hemolysis: QUBO → Ising → QAOA, benchmarked against classical solvers, with noise and error-mitigation studies. Qiskit Fall Fest 2026. | Qiskit, scikit-learn, FastAPI, React |
-| [**rucl3-crossover**](https://github.com/migikun474/rucl3-crossover) | Research code, in progress: when will a quantum computer beat classical simulation of the neutron spectrum of the magnet α-RuCl₃? Costs S(q, ω) both ways at the same accuracy: exact Lanczos/Krylov against Trotter circuits with fault-tolerant resource estimates. | Python, NumPy, Numba, QDK |
-| [**T20 World Cup Simulator**](https://github.com/migikun474/multithreaded-t20-worldcup-simulator) | A cricket match where every player is a POSIX thread, with FCFS/SJF/priority scheduling and Banker's Algorithm deadlock detection. | C++17, pthreads |
 
 ## 🌐 Open source
 
@@ -47,6 +59,7 @@
 <details>
 <summary>More projects</summary>
 
+- [T20 World Cup Simulator](https://github.com/migikun474/multithreaded-t20-worldcup-simulator) — a cricket match where every player is a POSIX thread, with FCFS/SJF/priority scheduling and Banker's Algorithm deadlock detection.
 - [OptiTrace](https://github.com/migikun474/OptiTrace) — compiler plugin and runtime for finding hot code paths and comparing Clang and GCC optimization passes.
 - [Yield Curve Prediction (CIR)](https://github.com/migikun474/-Yield-Curve-Prediction-using-CIR-method) — predicts the 6M–30Y yield curve from the 3-month rate; the jump-diffusion CIR model reaches R² = 0.94 out of sample.
 - [VITERBI](https://github.com/migikun474/VITERBI) — Viterbi decoding of a hidden Markov model for exon / splice site / intron structure in DNA.
@@ -93,6 +106,8 @@
   <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
 </p>
+
+---
 
 ---
 

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Compiler pipeline animation: source.c through lexer, LALR(1) parser, semantic analysis, TAC, optimizer and MIPS on SPIM">
+<title>Compiler pipeline animation: source.c through lexer, LALR(1) parser, semantic analysis, TAC, optimizer and MIPS on SPIM</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}
+.t{fill:#e8e6f5;} .m{fill:#8d8aae;} .p{fill:#fe428e;} .c{fill:#a9fef7;} .y{fill:#f8d847;}
+.title{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:17px;fill:#fe428e;}
+.sub{font-size:12px;fill:#8d8aae;}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;}}
+
+.stage .box{animation:hl 11.0s linear infinite;animation-delay:inherit;}
+.stage .lbl{animation:hlt 11.0s linear infinite;animation-delay:inherit;}
+.stage .art{animation:hla 11.0s linear infinite;animation-delay:inherit;}
+@keyframes hl{0%{stroke:#2e2b4a;}2%{stroke:#fe428e;fill:#2a1730;}9%{stroke:#fe428e;fill:#2a1730;}16%{stroke:#2e2b4a;fill:#1c1a30;}100%{stroke:#2e2b4a;}}
+@keyframes hlt{0%{fill:#e8e6f5;}2%,9%{fill:#fe428e;}16%,100%{fill:#e8e6f5;}}
+@keyframes hla{0%{fill:#8d8aae;}2%,9%{fill:#a9fef7;}16%,100%{fill:#8d8aae;}}
+.flow{stroke-dasharray:6 8;animation:dash 1.2s linear infinite;}
+@keyframes dash{to{stroke-dashoffset:-28;}}
+.ok{opacity:0;animation:ok 11.0s linear infinite;}
+@keyframes ok{0%,80%{opacity:0;transform:translateY(6px);}84%,96%{opacity:1;transform:translateY(0);}100%{opacity:0;}}
+</style>
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#2e2b4a" stroke-width="0.6" opacity="0.55"/></pattern>
+</defs>
+<rect width="900" height="340" rx="16" fill="#141321"/>
+<rect x="0.5" y="0.5" width="899" height="339" rx="16" fill="none" stroke="#2e2b4a"/>
+
+<text x="22" y="38" class="title">COMPILER-DESIGN</text>
+<text x="22" y="60" class="sub">a C-like language with classes, references and overloading — compiled all the way to MIPS · C++17 · Flex · Bison</text>
+<text x="878" y="38" text-anchor="end" font-size="12" class="y">front end ✓  TAC ✓  -O3 ✓  MIPS ✓</text>
+<text x="22" y="82" font-size="10.5" class="m" letter-spacing="2">FRONT END</text>
+<text x="22" y="212" font-size="10.5" class="m" letter-spacing="2">BACK END</text>
+<path d="M98.0 121.0 L269.0 121.0 L440.0 121.0 L611.0 121.0 L782.0 121.0 L765.0 251.0 L549.0 251.0 L333.0 251.0 L117.0 251.0" fill="none" stroke="#2e2b4a" stroke-width="2"/>
+<path d="M98.0 121.0 L269.0 121.0 L440.0 121.0 L611.0 121.0 L782.0 121.0 L765.0 251.0 L549.0 251.0 L333.0 251.0 L117.0 251.0" fill="none" stroke="#fe428e" stroke-width="2" opacity=".55" class="flow"/>
+<circle r="7" fill="#fe428e" opacity="1" filter="url(#glow)">
+    <animateMotion dur="11.0s" begin="0s" repeatCount="indefinite" path="M98.0 121.0 L269.0 121.0 L440.0 121.0 L611.0 121.0 L782.0 121.0 L765.0 251.0 L549.0 251.0 L333.0 251.0 L117.0 251.0" keyPoints="0.0000;0.1169;0.2337;0.3506;0.4675;0.5571;0.7047;0.8524;1.0000;1" keyTimes="0.0000;0.1025;0.2050;0.3075;0.4100;0.5125;0.6150;0.7175;0.8200;1" calcMode="linear"/></circle><circle r="5" fill="#fe428e" opacity="0.55" filter="url(#glow)">
+    <animateMotion dur="11.0s" begin="0.12s" repeatCount="indefinite" path="M98.0 121.0 L269.0 121.0 L440.0 121.0 L611.0 121.0 L782.0 121.0 L765.0 251.0 L549.0 251.0 L333.0 251.0 L117.0 251.0" keyPoints="0.0000;0.1169;0.2337;0.3506;0.4675;0.5571;0.7047;0.8524;1.0000;1" keyTimes="0.0000;0.1025;0.2050;0.3075;0.4100;0.5125;0.6150;0.7175;0.8200;1" calcMode="linear"/></circle><circle r="3.5" fill="#fe428e" opacity="0.3" filter="url(#glow)">
+    <animateMotion dur="11.0s" begin="0.24s" repeatCount="indefinite" path="M98.0 121.0 L269.0 121.0 L440.0 121.0 L611.0 121.0 L782.0 121.0 L765.0 251.0 L549.0 251.0 L333.0 251.0 L117.0 251.0" keyPoints="0.0000;0.1169;0.2337;0.3506;0.4675;0.5571;0.7047;0.8524;1.0000;1" keyTimes="0.0000;0.1025;0.2050;0.3075;0.4100;0.5125;0.6150;0.7175;0.8200;1" calcMode="linear"/></circle>
+
+  <g class="stage" style="animation-delay:-0.25s">
+    <rect x="22" y="92" width="152" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="98.0" y="115" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">source.c</text>
+    <text x="98.0" y="135" text-anchor="middle" font-size="11.5" class="m art">x = a + b * 2;</text>
+  </g>
+  <g class="stage" style="animation-delay:0.88s">
+    <rect x="193" y="92" width="152" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="269.0" y="115" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">preprocess</text>
+    <text x="269.0" y="135" text-anchor="middle" font-size="11.5" class="m art">#define, #include</text>
+  </g>
+  <g class="stage" style="animation-delay:2.00s">
+    <rect x="364" y="92" width="152" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="440.0" y="115" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">lexer · Flex</text>
+    <text x="440.0" y="135" text-anchor="middle" font-size="11.5" class="m art">ID = ID + ID * NUM</text>
+  </g>
+  <g class="stage" style="animation-delay:3.13s">
+    <rect x="535" y="92" width="152" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="611.0" y="115" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">parser · LALR(1)</text>
+    <text x="611.0" y="135" text-anchor="middle" font-size="11.5" class="m art">= x (+ a (* b 2))</text>
+  </g>
+  <g class="stage" style="animation-delay:4.26s">
+    <rect x="706" y="92" width="152" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="782.0" y="115" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">semantic</text>
+    <text x="782.0" y="135" text-anchor="middle" font-size="11.5" class="m art">types ✓ scopes ✓</text>
+  </g>
+  <g class="stage" style="animation-delay:5.39s">
+    <rect x="670" y="222" width="190" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="765.0" y="245" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">TAC</text>
+    <text x="765.0" y="265" text-anchor="middle" font-size="11.5" class="m art">t1 = b * 2</text>
+  </g>
+  <g class="stage" style="animation-delay:6.51s">
+    <rect x="454" y="222" width="190" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="549.0" y="245" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">optimizer</text>
+    <text x="549.0" y="265" text-anchor="middle" font-size="11.5" class="m art">-O1 · -O2 · -O3</text>
+  </g>
+  <g class="stage" style="animation-delay:7.64s">
+    <rect x="238" y="222" width="190" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="333.0" y="245" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">MIPS · regalloc</text>
+    <text x="333.0" y="265" text-anchor="middle" font-size="11.5" class="m art">sll $t0, $a1, 1</text>
+  </g>
+  <g class="stage" style="animation-delay:8.77s">
+    <rect x="22" y="222" width="190" height="58" rx="10" fill="#1c1a30" stroke="#2e2b4a" stroke-width="1.5" class="box"/>
+    <text x="117.0" y="245" text-anchor="middle" font-size="13" font-weight="700" class="t lbl">SPIM</text>
+    <text x="117.0" y="265" text-anchor="middle" font-size="11.5" class="m art">output == gcc ✓</text>
+  </g>
+<g class="ok"><rect x="22" y="300" width="420" height="26" rx="13" fill="#123a35" stroke="#a9fef7"/>
+<text x="232" y="318" text-anchor="middle" font-size="12" class="c">✓ every test prints exactly what gcc's binary prints</text></g>
+<text x="878" y="318" text-anchor="end" font-size="11" class="m">87 semantic · 34 TAC · 33 SPIM checks passing</text>
+
+</svg>
