@@ -28,13 +28,13 @@
 ## 📊 Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=migikun474&show_icons=true&theme=radical&include_all_commits=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=migikun474&show_icons=true&bg_color=172036&title_color=f0b84f&text_color=edf0f7&icon_color=57d3bd&border_color=2e3d60&ring_color=f0b84f&include_all_commits=true" alt="GitHub stats"/>
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=migikun474&theme=radical" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com?user=migikun474&background=172036&border=2e3d60&stroke=2e3d60&ring=f0b84f&fire=f0b84f&currStreakNum=edf0f7&sideNums=edf0f7&currStreakLabel=f0b84f&sideLabels=8e9bbb&dates=8e9bbb" alt="GitHub streak"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=migikun474&layout=compact&langs_count=10&theme=radical&hide=jupyter%20notebook,html,css&exclude_repo=qpp" alt="Most used languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=migikun474&layout=compact&langs_count=10&bg_color=172036&title_color=f0b84f&text_color=edf0f7&icon_color=57d3bd&border_color=2e3d60&ring_color=f0b84f&hide=jupyter%20notebook,html,css&exclude_repo=qpp" alt="Most used languages"/>
 </p>
 
 <p align="center">
@@ -52,8 +52,8 @@
 - [**Quantum++**](https://github.com/migikun474/qpp) (C++17 quantum computing library by softwareQ): added `qpp::fidelity()`, `qpp::trace_distance()`, `qpp::purity()` and arbitrary state preparation with `qpp::state_prep_circuit()`.
 
 <p align="center">
-  <a href="https://github.com/migikun474"><img src="https://img.shields.io/badge/GitHub-migikun474-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://gitlab.com/migikun474"><img src="https://img.shields.io/badge/GitLab-migikun474-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/></a>
+  <a href="https://github.com/migikun474"><img src="https://img.shields.io/badge/GitHub-migikun474-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=github" alt="GitHub"/></a>
+  <a href="https://gitlab.com/migikun474"><img src="https://img.shields.io/badge/GitLab-migikun474-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=gitlab" alt="GitLab"/></a>
 </p>
 
 <details>
@@ -74,37 +74,37 @@
 ## 🛠️ Skills
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
-  <img src="https://img.shields.io/badge/x86--64%20Assembly-6E4C13?style=for-the-badge" alt="x86-64 Assembly"/>
-  <img src="https://img.shields.io/badge/MIPS-4B5563?style=for-the-badge" alt="MIPS"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
+  <img src="https://img.shields.io/badge/C++-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=cplusplus" alt="C++"/>
+  <img src="https://img.shields.io/badge/C-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=c" alt="C"/>
+  <img src="https://img.shields.io/badge/x86--64%20Assembly-1e2a45?style=for-the-badge" alt="x86-64 Assembly"/>
+  <img src="https://img.shields.io/badge/MIPS-1e2a45?style=for-the-badge" alt="MIPS"/>
+  <img src="https://img.shields.io/badge/Python-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=python" alt="Python"/>
+  <img src="https://img.shields.io/badge/TypeScript-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=typescript" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/R-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=r" alt="R"/>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/SIMD%20(SSE%2FAVX2)-4B5563?style=for-the-badge" alt="SIMD"/>
-  <img src="https://img.shields.io/badge/Flex%20%2F%20Bison-4B5563?style=for-the-badge" alt="Flex and Bison"/>
-  <img src="https://img.shields.io/badge/POSIX%20Threads-4B5563?style=for-the-badge" alt="POSIX threads"/>
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake"/>
-  <img src="https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=gnu&logoColor=white" alt="Make"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/SIMD%20(SSE%2FAVX2)-1e2a45?style=for-the-badge" alt="SIMD"/>
+  <img src="https://img.shields.io/badge/Flex%20%2F%20Bison-1e2a45?style=for-the-badge" alt="Flex and Bison"/>
+  <img src="https://img.shields.io/badge/POSIX%20Threads-1e2a45?style=for-the-badge" alt="POSIX threads"/>
+  <img src="https://img.shields.io/badge/CMake-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=cmake" alt="CMake"/>
+  <img src="https://img.shields.io/badge/Make-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=gnu" alt="Make"/>
+  <img src="https://img.shields.io/badge/Linux-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=linux" alt="Linux"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=githubactions" alt="GitHub Actions"/>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"/>
-  <img src="https://img.shields.io/badge/Numba-00A3E0?style=for-the-badge&logo=numba&logoColor=white" alt="Numba"/>
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/Qiskit-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=qiskit" alt="Qiskit"/>
+  <img src="https://img.shields.io/badge/NumPy-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=numpy" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/SciPy-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=scipy" alt="SciPy"/>
+  <img src="https://img.shields.io/badge/Numba-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=numba" alt="Numba"/>
+  <img src="https://img.shields.io/badge/pandas-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=pandas" alt="pandas"/>
+  <img src="https://img.shields.io/badge/scikit--learn-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=scikitlearn" alt="scikit-learn"/>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
+  <img src="https://img.shields.io/badge/FastAPI-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=fastapi" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/React-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=react" alt="React"/>
+  <img src="https://img.shields.io/badge/Git-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=git" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitLab-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=gitlab" alt="GitLab"/>
+  <img src="https://img.shields.io/badge/Jupyter-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=jupyter" alt="Jupyter"/>
 </p>
 
 ---
@@ -117,7 +117,7 @@
 
 <!-- Fill in and uncomment to show contact links:
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE/"><img src="https://img.shields.io/badge/LinkedIn-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-1e2a45?style=for-the-badge&logoColor=f0b84f&logo=gmail" alt="Email"/></a>
 </p>
 -->
